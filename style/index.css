@@ -1,0 +1,203 @@
+/* Fondo general claro y minimalista */
+body {
+    background-color: #f8fafc;
+    background-image: radial-gradient(circle at 50% 50%, #ffffff 0%, #f1f5f9 100%);
+    color: #1e293b;
+    min-height: 100vh;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* Navbar Estilo Minimalista */
+.navbar-custom {
+    background-color: #ffffff;
+    border-bottom: 2px solid #e2e8f0;
+    padding: 14px 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #0f172a !important;
+}
+
+.brand-accent {
+    color: #2563eb; /* Azul corporativo limpio */
+}
+
+/* Selector de archivos */
+.file-input-custom {
+    background-color: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    color: #334155;
+}
+
+.file-input-custom:focus {
+    background-color: #ffffff;
+    color: #0f172a;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Tarjetas Blancas Elegantes */
+.card.shadow-custom {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+.card-header-custom {
+    background-color: #f8fafc;
+    padding: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+    color: #475569;
+    border-bottom: 1px solid #e2e8f0;
+    text-transform: uppercase;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+.card-footer-custom {
+    background-color: #f8fafc;
+    padding: 12px;
+    font-size: 0.8rem;
+    color: #64748b;
+    border-top: 1px solid #e2e8f0;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+
+/* Área del Canvas (Mantenemos fondo claro para contraste) */
+.visualizer-bg {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#circlechart {
+    background-color: #ffffff; /* El canvas se mantiene negro para ver las líneas del reloj */
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+}
+
+/* Botones Estilizados en Modo Claro */
+.btn {
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-action-cyan {
+    background-color: #f0fdfa;
+    color: #0d9488;
+    border: 1px solid #ccfbf1;
+}
+
+.btn-action-cyan:hover {
+    background-color: #0d9488;
+    color: #ffffff;
+    border-color: #0d9488;
+}
+
+.btn-action-purple {
+    background-color: #f5f3ff;
+    color: #7c3aed;
+    border: 1px solid #ede9fe;
+}
+
+.btn-action-purple:hover {
+    background-color: #7c3aed;
+    color: #ffffff;
+    border-color: #7c3aed;
+}
+
+.btn-action-danger {
+    background-color: #fee2e2;
+    color: #dc2626;
+    border: 1px solid #fca5a5;
+}
+
+.btn-action-danger:hover {
+    background-color: #dc2626;
+    color: #ffffff;
+    border-color: #dc2626;
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+/* Controles de Rango y Etiquetas */
+.label-custom {
+    font-size: 0.8rem;
+    color: #64748b;
+    font-weight: 500;
+}
+
+.label-manecilla {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.font-cyan { color: #0d9488; }
+.font-purple { color: #7c3aed; }
+.text-cyber-cyan { color: #0d9488; }
+.text-purple-neon { color: #7c3aed; }
+
+.range-container {
+    background-color: #f8fafc;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+/* Contenedor del Editor de Código (Archivo) */
+.code-bg {
+    background-color: #fafafa;
+    padding: 0;
+}
+
+#contenido-archivo {
+    background-color: #f8fafc;
+    color: #0f172a;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 15px;
+    max-height: 200px;
+    overflow-y: auto;
+    font-family: 'Consolas', monospace;
+    font-size: 0.8rem;
+}
+
+/* Footer Claro */
+#footer {
+    background-color: #ffffff;
+    border-top: 1px solid #e2e8f0;
+    font-size: 0.8rem;
+    color: #475569;
+}
+
+.footer-title {
+    color: #94a3b8;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.footer-text {
+    color: #334155;
+}
+
+@media (max-width: 991px) {
+    .col-lg-4 {
+        margin-top: 20px;
+    }
+}
